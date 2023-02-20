@@ -1,0 +1,11 @@
+const CATEGORIES_TYPE = {
+  SHIRT: 'SHIRT',
+  PANTS: 'PANTS',
+  SHORTS: 'SHORTS',
+  SKIRT: 'SKIRT',
+  JUMPSUIT: 'JUMPSUIT',
+}
+
+module.exports = {
+  CATEGORIES_TYPE,
+}

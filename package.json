@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "admin": "nodemon admin/app",
+    "front": "nodemon front/app",
+    "start": "NODE_ENV=production node front/app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.4.1",
+    "@fastify/cors": "^8.1.1",
+    "@fastify/jwt": "^6.3.2",
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.32.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "fastify-multer": "^2.0.3",
+    "mongoose": "^6.7.0",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-paginate-v2": "^1.7.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
