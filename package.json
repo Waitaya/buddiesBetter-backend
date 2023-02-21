@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "admin": "nodemon admin/app",
-    "front": "nodemon front/app",
-    "start": "NODE_ENV=production node front/app"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -34,7 +32,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-standard": "^5.0.0",
     "nodemon": "^2.0.20"
   }
 }
